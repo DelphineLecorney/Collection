@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #fff;
+}
+
+header {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    width: 80%;
+    margin: 30px auto 0;
+}
+
+header img {
+    height: 150px;
+    margin-right: 20px;
+    margin-left: 0;
+    grid-row: 1 / span 2;
+    border-radius: 10px 50px 40px 80px;
+}
+
+header h1,
+header p {
+    color: #374773;
+    grid-column: 2;
+}
+
+header h1 {
+    font-size: 30px;
+    grid-row: 1;
+}
+
+header p {
+    font-size: 15px;
+    grid-row: 2;
+}
+
+.collection {
+    width: 80%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(250px, 1fr));
+    justify-content: center;
+    gap: 20px;
+    margin: 20px auto;
+}
+
+.card {
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(235, 22, 22, 0.1);
+    overflow: hidden;
+    transform-style: preserve-3d;
+    transition: transform 0.9s ease;
+}
+
+.card:hover {
+    box-shadow: 0 10px 16px rgba(74, 101, 190, 0.2);
+}
+
+.card-front,
+.card-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('');
+    background-size: cover;
+    transform: rotate(180deg);
+}
+
+.card-front {
+    background-color: #fff;
+    z-index: 2;
+}
+
+.card-back {
+    background-color: #f1f1f1;
+    transform: rotateY(180deg);
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card h2,
+.card p,
+.card button,
+.card a {
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.card h2 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.card p {
+    position: relative;
+    bottom: 25px;
+}
+
+.card button,
+.card a {
+    color: #fff;
+    padding: 5px;
+    margin-bottom: 5px;
+    align-self: end;
+    position: absolute;
+    bottom: 0;
+    border-radius: 20px;
+}
+
+.card button {
+    left: 70%;
+    transform: translateX(-50%);
+    transition: transform 0.3s;
+    background-image: -moz-linear-gradient(#9198e5, #b37d7d);
+}
+
+.card button:hover {
+    opacity: 0.5;
+}
+
+.card a {
+    left: 25%;
+    transform: translateX(-50%);
+    background-image: -moz-linear-gradient(#dca4a4, #9198e5);
+}
+
+.card-tri {
+    right: 100%;
+    padding: 20%;
+}
