@@ -9,7 +9,7 @@ body {
 }
 
 .collection {
-  margin: 30px auto;
+  margin: 80px auto 30px auto;
   max-width: 1300px;
   width: 80%;
   height: auto;
@@ -135,4 +135,13 @@ header p {
   opacity: 0.5;
   cursor: pointer;
   transform: scale(1.05);
+}
+
+.selectElement {
+  position: fixed;
+  top: 50px;
+  z-index: 2;
+  width: 100%;
+  padding: 10px;
+  background-color: #fff;
 }/*# sourceMappingURL=style.css.map */
