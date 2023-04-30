@@ -171,6 +171,24 @@ delButtons.forEach(function(button) {
   });
 });
 
-let sortButton = document.createElement('select');
-let optionCar = document.createElement('option');
+// Créer l'élément select
+let selectElement = document.createElement('select');
 
+// Ajouter quelques options au select
+let triParNom = document.createElement('option');
+triParNom.value = "nom";
+triParNom.text = "Nom";
+selectElement.add(triParNom);
+
+let triParOrdreAsc = document.createElement('option');
+triParOrdreAsc.value = "nom";
+triParOrdreAsc.text = "Tri par ordre alphabétique";
+selectElement.add(triParOrdreAsc);
+
+document.body.appendChild(selectElement);
+
+selectElement.addEventListener('change', function() {
+if (selectElement.value === 'nom') {
+} else if (selectElement.value === 'OrdreAlphabétique') {
+}
+});
