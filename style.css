@@ -101,6 +101,11 @@ header p {
   margin-top: 5px;
 }
 
+.del_Item {
+  left: 70%;
+  border: none;
+}
+
 .card button,
 .card a {
   color: #fff;
@@ -110,21 +115,24 @@ header p {
   position: absolute;
   bottom: 0;
   border-radius: 20px;
-}
-
-.card button {
-  left: 70%;
-  transform: translateX(-50%);
-  transition: transform 0.3s;
-  background: -moz-linear-gradient(#9198e5, #b37d7d);
+  background-color: #9198e5;
+  background-image: linear-gradient(#9198e5, #b37d7d);
 }
 
 .card button:hover {
   opacity: 0.5;
+  cursor: pointer;
+  transform: scale(1.05);
 }
 
 .card a {
   left: 25%;
-  transform: translateX(-50%);
-  background: -moz-linear-gradient(#dca4a4, #9198e5);
+  background-color: #dca4a4;
+  background-image: linear-gradient(#dca4a4, #9198e5);
+}
+
+.card a:hover {
+  opacity: 0.5;
+  cursor: pointer;
+  transform: scale(1.05);
 }/*# sourceMappingURL=style.css.map */
