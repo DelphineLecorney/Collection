@@ -1,6 +1,6 @@
 # Collection
 
-<img src="https://github.com/DelphineLecorney/DelphineLecorney/blob/main/images/Collection.JPG" alt="Collection" height="100" width="100" />
+<img src="https://github.com/DelphineLecorney/DelphineLecorney/blob/main/images/Collection.JPG" alt="Collection" height="300" width="300" />
 
 
 [Lien vers la Collection](https://delphinelecorney.github.io/Collection/)
