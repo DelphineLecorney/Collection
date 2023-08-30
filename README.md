@@ -2,7 +2,7 @@
 
 <img src="https://github.com/DelphineLecorney/DelphineLecorney/blob/main/images/Collection.JPG" alt="Collection" height="300" width="300" />
 
-<a href="https://delphinelecorney.github.io/Collection/" target="_blank">Lien vers la Collection</a>
+<a href="https://delphinelecorney.github.io/Collection/" target="blank">Lien vers la Collection</a>
 
 Create a const collection
 
