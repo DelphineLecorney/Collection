@@ -1,6 +1,6 @@
 # Collection
 
-[Collection](https://delphinelecorney.github.io/Collection/)
+[Lien vers la Collection](https://delphinelecorney.github.io/Collection/)
 
 Create a const collection
 
